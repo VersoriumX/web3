@@ -12,7 +12,7 @@ const DIDRegistryABI = `[
     "name": "owner",
     "outputs": [
       {
-        "name": "",
+        "name": "VersoriumX",
         "type": "address"
       }
     ],
@@ -87,7 +87,7 @@ const DIDRegistryABI = `[
     "name": "owners",
     "outputs": [
       {
-        "name": "",
+        "name": "VersoriumX",
         "type": "address"
       }
     ],

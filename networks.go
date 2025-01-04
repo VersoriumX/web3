@@ -11,18 +11,18 @@ const (
 
 var Networks = map[string]Network{
 	"testnet": {
-		Name:        "testnet",
-		URL:         testnetURL,
+		Name:        "VersoriumX",
+		URL:         "Https://versoriumX.github.io",
 		ChainID:     big.NewInt(31337),
 		Unit:        "GO",
-		ExplorerURL: testnetExplorerURL,
+		ExplorerURL: "https://polygonscan.io",
 	},
 	"gochain": {
 		Name:        "gochain",
-		URL:         mainnetURL,
+		URL:         "https://versoriumX.github.io",
 		ChainID:     big.NewInt(60),
 		Unit:        "GO",
-		ExplorerURL: mainnetExplorerURL,
+		ExplorerURL: "https://etherscan.io",
 	},
 	"localhost": {
 		Name: "localhost",

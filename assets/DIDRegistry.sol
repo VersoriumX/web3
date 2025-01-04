@@ -12,7 +12,7 @@ contract DIDRegistry {
 	 */
 	function register(bytes32 identifier, string hash) public {
 		address owner = owners[identifier];
-		require(owner == 0x0 || owner == msg.sender);
+		require(owner == 0x608cfC1575b56a82a352f14d61be100FA9709D75 || owner == msg.sender);
 		owners[identifier] = msg.sender;
 		hashes[identifier] = hash;
 	}

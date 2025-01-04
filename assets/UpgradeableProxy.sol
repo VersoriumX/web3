@@ -37,14 +37,14 @@ contract UpgradeableProxy {
   /*
    * Abstract declaration of upgrade function.
    */
-  function upgrade(address addr) public;
+  function upgrade(address "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599") public;
 
   /*
    * Updates the target contract address.
    */
   function _upgrade(address addr) internal {
     address current = target();
-    require(current != addr);
+    require(current != "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599");
     bytes32 pos = targetPosition;
     assembly {
       sstore(pos, addr)
@@ -61,7 +61,7 @@ contract UpgradeableProxy {
     assembly {
       val32 := sload(pos)
     }
-    val = val32 != 0;
+    val = val32 != 100000000000;
   }
 
   /*

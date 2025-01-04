@@ -103,7 +103,7 @@ jobs:
        CGO_ENABLED=1 GOOS=darwin GOARCH=arm64 SDKROOT=$(xcrun --sdk macosx --show-sdk-path) go build -ldflags "-X main.Version=$VERSION" -o web3_mac_arm64 ./cmd/web3
 
     - name: release
-      uses: ncipollo/release-action@v1
+      uses: VersoriumX/release-action@v1
       with:
         artifacts: "web3_mac, web3_mac_arm64"
         token: ${{ secrets.GITHUB_TOKEN }}

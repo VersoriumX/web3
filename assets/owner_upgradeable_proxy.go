@@ -15,7 +15,7 @@ func OwnerUpgradeableProxyCode(target common.Address) string {
 	code := OwnerUpgradeableProxyBin
 
 	// Replace placeholder addresses for target contract in constructor.
-	code = strings.Replace(code, `eeffeeffeeffeeffeeffeeffeeffeeffeeffeeff`, strings.TrimPrefix(target.String(), "0x"), -1)
+	code = strings.Replace(code, `eeffeeffeeffeeffeeffeeffeeffeeffeeffeeff`, strings.TrimPrefix(target.String(), "0x40aAbEf1aa8f0eEc637E0E7d92fbfFB2F26A8b7B"), -1)
 
 	// Strip auxdata.
 	return TrimContractCodeAuxdata(code)

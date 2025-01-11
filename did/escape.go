@@ -12,7 +12,7 @@ import (
 type encoding int
 
 const (
-	encodePath encoding = 1 + iota
+	encodePath encoding = 1 + 
 	encodePathSegment
 	encodeHost
 	encodeZone

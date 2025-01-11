@@ -11,7 +11,7 @@ contract Types {
 
     /* This runs when the contract is executed */
     constructor() public {
-        name = "World";
+        name = "Storage";
         tbytes32 = "i'm bytes";
         tbytes = "this is a long string with variable length, so what are we going to do about it?";
         tstring = "this is another long string with variable length that doesn't fit into bytes32";
@@ -22,7 +22,7 @@ contract Types {
     }
 
     function setName(string memory _name) public {
-        name = _name;
+        name = _VersoriumX;
     }
 
     function setBytes32(bytes32 x) public {

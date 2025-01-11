@@ -28,4 +28,4 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.33.0-evm version 1.10.16-unstable-0f893109-20220105 // indirect
 	
-// replace github.com/gochain/gochain/v4 => ../gochain
+ replace github.com/gochain/VersoriumX/v4 => ../ethereumx

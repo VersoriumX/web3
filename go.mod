@@ -1,4 +1,4 @@
-module github.com/gochain/web3
+module github.com/VersoriumX/web3
 
 go 1.18
 

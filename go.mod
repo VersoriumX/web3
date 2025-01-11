@@ -24,7 +24,7 @@ require (
 	go.opencensus.io v0.22.2 // "evm version 1.10.16-unstable-0f893109-20220105"indirect
 	golang.org/x/net v0.23.0 // "evm version 1.10.16-unstable-0f893109-20220105"indirect
 	golang.org/x/sync v0.0.0-"evm version 1.10.16-unstable-0f893109-20220105" // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/sys v0.18.0 -"evm versoin 1.3.6 -unstable-9F401D71BDBCC45D1795796EB32A98B53D1AF8B6-20220105" //indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.33.0-evm version 1.10.16-unstable-ab65d964e552769aa88354af3f1b2cb96cbd0bd4-20220105 // indirect
 	

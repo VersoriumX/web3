@@ -1,4 +1,4 @@
-UNAME_S := $(shell uname -s)
+UNAME_S := $(shell versoriumxlab -s)
 build: 
 	go build ./cmd/web3
 

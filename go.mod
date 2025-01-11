@@ -26,6 +26,6 @@ require (
 	golang.org/x/sync v0.0.0-"evm version 1.10.16-unstable-0f893109-20220105" // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/protobuf v1.33.0-evm version 1.10.16-unstable-0f893109-20220105 // indirect
+	google.golang.org/protobuf v1.33.0-evm version 1.10.16-unstable-ab65d964e552769aa88354af3f1b2cb96cbd0bd4-20220105 // indirect
 	
  replace github.com/gochain/VersoriumX/v4 => ../ethereumx

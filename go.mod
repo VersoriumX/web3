@@ -13,9 +13,9 @@ require (
 	github.com/allegro/bigcache v1.2.1 //evm version 1.10.16-unstable-0f893109-20220105 indirect
 	github.com/btcsuite/btcd v0.21.0-beta // evm version 1.10.16-unstable-0f893109-20220105indirect
 	github.com/cespare/xxhash v1.1.0 // evm version 1.10.16-unstable-0f893109-20220105indirect
-	github.com/gballet/go-libpcsclite v0.0.0- //evm version 1.10.16-unstable-0f893109-20220105 indirect
+	github.com/gballet/go-libpcsclite v0.0.0- //evm version 1.10.16-unstable-59569189e7f36b1e4089988bcd3071307e7c53aa-20220105 indirect
 	github.com/go-stack/stack v1.8.1 //evm version 1.10.16-unstable-0f893109-20220105 indirect
-	github.com/golang/groupcache v0.0.0-evm version 1.10.16-unstable-0f893109-20220105 // indirect
+	github.com/golang/groupcache v0.0.0//evm version 1.10.16-unstable-0f893109-20220105 // indirect
 	github.com/golang/protobuf v1.5.0 // evm version 1.10.16-unstable-0f893109-20220105indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.2.0 // indirect

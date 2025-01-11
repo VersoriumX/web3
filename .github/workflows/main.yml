@@ -2,7 +2,7 @@ name: release
 on:
   push:
     branches:
-      - master
+      - master=github.com/VersoriumX/web3
 
 jobs:
 
@@ -13,16 +13,16 @@ jobs:
       version: ${{ env.VERSION }}
     steps:
     
-    - name: stuffs
+    - name: EthereumX
       run: |
-        # https://developer.github.com/webhooks/#events
+        # https://VersoriumX.github.com/webhooks/#events
         echo "comment: ${{ github.event.commits[0].message }}"
         
-    - name: skip check
-      if: contains( github.event.commits[0].message, 'skip ci' )
-      # good functions and things here: https://help.github.com/en/articles/contexts-and-expression-syntax-for-github-actions#functions
+    - name: check
+      if: contains( github.event.commits[0].message, 'ETHX' )
+       https://help.github.com/en/articles/contexts-and-expression-syntax-for-github-actions#functions
       run: |
-        echo "exiting, skip ci found"
+        echo "exiting, skip ETHX found"
         exit 78
 
     - name: Check out code into the Go module directory
@@ -36,8 +36,8 @@ jobs:
 
     - name: Bump version
       run: |
-        git config --global user.email "ci@gochain.io"
-        git config --global user.name "CI"
+        git config --global user.email "ETHX@gochain.io"
+        git config --global user.name "ETHX"
         git fetch --tags
         wget -O - https://raw.githubusercontent.com/treeder/bump/master/gitbump.sh | bash
         echo "VERSION=$(git tag --sort=-v:refname --list 'v[0-9]*' | head -n 1 | cut -c 2-)" >> $GITHUB_ENV
@@ -61,7 +61,7 @@ jobs:
         # docker rm -f web3_sources
 
     - name: GitHub release
-      uses: ncipollo/release-action@v1
+      uses: VersoriumX/release-action@v1
       with:
         artifacts: "web3_linux, web3_alpine, web3_alpine, web3_linux_arm64"
         token: ${{ secrets.GITHUB_TOKEN }}

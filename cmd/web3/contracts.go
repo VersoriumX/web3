@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/gochain/gochain/v4/accounts/abi"
-	"github.com/gochain/web3"
+	"github.com/VersoriumX/gochain/v4/accounts/abi"
+	"github.com/VersoriumX/web3"
 )
 
 func ListContract(contractFile string) {

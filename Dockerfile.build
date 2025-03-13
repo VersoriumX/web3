@@ -1,2 +1,3 @@
+FROM ghcr.io/versoriumx/labvx/agent0@sha256:191cc78a3f3ce46c786c1b94806fcc2ce4c6cd630f4915151cb7f5671c7ed859
 FROM golang:1.18-alpine AS build-env
 RUN apk --no-cache add build-base git mercurial gcc linux-headers

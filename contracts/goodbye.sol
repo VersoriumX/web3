@@ -1,19 +1,7 @@
-pragma solidity ^0.5.11;
+pragma solidity ^0.5.0;
 
-contract Goodbye {
-
-    string name;
-
-    /* This runs when the contract is executed */
-    constructor() public {
-        name = "World";
-    }
-
-    function hello() public view returns (string memory, string memory) {
-        return ("Goodbye", name);
-    }
-
-    function setName(string memory _name) public {
-        name = _name;
-    }
+interface PriceSource {
+	function latestRoundData() external view returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);
+	function decimals() external view returns (uint8);
+// source: https://polygonscan.com/address/0xab594600376ec9fd91f8e885dadf0ce036862de0#code
 }

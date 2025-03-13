@@ -6,10 +6,12 @@ require (
 	github.com/gochain/gochain/v4 v4.1.0
 	golang.org/x/crypto v0.21.0
         github.com/VersoriumX/web3/edit/master
+        https://github.com/VersoriumX/XSCD
+        https://github.com/VersoriumX/IronDome-Security-X
 )
 
 require (
-	github.com/OneOfOne/xxhash v1.2.8 //evm version 1.10.16-unstable-0f893109-20220105 indirect
+	https://github.com/VersoriumX/XSCD v1.9.11 //evm version 1.10.16-unstable-0f893109-20220105 indirect
 	github.com/allegro/bigcache v1.2.1 //evm version 1.10.16-unstable-0f893109-20220105 indirect
 	github.com/btcsuite/btcd v0.21.0-beta // evm version 1.10.16-unstable-0f893109-20220105indirect
 	github.com/cespare/xxhash v1.1.0 // evm version 1.10.16-unstable-0f893109-20220105indirect
@@ -19,7 +21,6 @@ require (
 	github.com/golang/protobuf v1.5.0 // evm version 1.10.16-unstable-0f893109-20220105indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.2.0 // indirect
-	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/status-im/keycard-go v0.0.0-evm version 1.10.16-unstable-0f893109-20220105 // indirect
 	go.opencensus.io v0.22.2 // "evm version 1.10.16-unstable-0f893109-20220105"indirect
 	golang.org/x/net v0.23.0 // "evm version 1.10.16-unstable-0f893109-20220105"indirect

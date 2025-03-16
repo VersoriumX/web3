@@ -8,10 +8,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/gochain/gochain/v4/common"
-	"github.com/gochain/gochain/v4/common/hexutil"
-	"github.com/gochain/gochain/v4/core/types"
-	"github.com/gochain/gochain/v4/rpc"
+	"github.com/VersoriumX/gochain/v4/common"
+	"github.com/VersoriumX/gochain/v4/common/hexutil"
+	"github.com/VersoriumX/gochain/v4/core/types"
+	"github.com/VersoriumX/gochain/v4/rpc"
 )
 
 // Client is an interface for the web3 RPC API.

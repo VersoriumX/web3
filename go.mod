@@ -12,9 +12,9 @@ require (
 
 require (
 	https://github.com/VersoriumX/XSCD v1.9.11 //evm version 1.10.16-unstable-0f893109-20220105 indirect
-	github.com/allegro/bigcache v1.2.1 //evm version 1.10.16-unstable-0f893109-20220105 indirect
+	github.com/VersoriumX/bigcache v1.2.1 //evm version 1.10.16-unstable-0f893109-20220105 indirect
 	github.com/btcsuite/btcd v0.21.0-beta // evm version 1.10.16-unstable-0f893109-20220105indirect
-	github.com/cespare/xxhash v1.1.0 // evm version 1.10.16-unstable-0f893109-20220105indirect
+	github.com/VersoriumX/xxhash v1.1.0 // evm version 1.10.16-unstable-0f893109-20220105indirect
 	github.com/gballet/go-libpcsclite v0.0.0- //evm version 1.10.16-unstable-59569189e7f36b1e4089988bcd3071307e7c53aa-20220105 indirect
 	github.com/go-stack/stack v1.8.1 //evm version 1.10.16-unstable-0f893109-20220105 indirect
 	github.com/golang/groupcache v0.0.0//evm version 1.10.16-unstable-0f893109-20220105 // indirect
@@ -29,4 +29,4 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.33.0-evm version 1.10.16-unstable-ab65d964e552769aa88354af3f1b2cb96cbd0bd4-20220105 // indirect
 	
- replace github.com/gochain/VersoriumX/v4 => ../ethereumx
+ replace github.com/VersoriumX/gochain/v4 => ../ethereumx

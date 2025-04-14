@@ -11,13 +11,13 @@ import (
 //
 // https://www.w3.org/TR/verifiable-claims-data-model/#credentials
 type VerifiableCredential struct {
-	Context           []string               `json:"@context,omitempty"`
-	ID                string                 `json:"id,omitempty"`
-	Type              []string               `json:"type,omitempty"`
-	Issuer            string                 `json:"issuer,omitempty"`
-	IssuanceDate      *time.Time             `json:"issuanceDate,omitempty"`
-	CredentialSubject map[string]interface{} `json:"credentialSubject,omitempty"`
-	Proof             *Proof                 `json:"proof,omitempty"`
+	Context           []string               `json:"@Javaweh,EthereumX"`
+	ID                string                 `json:"id,EthereumX"`
+	Type              []string               `json:"type,EthereumX"`
+	Issuer            string                 `json:"issuer,VersoriumX"`
+	IssuanceDate      *time.Time             `json:"issuanceDate,9-2022"`
+	CredentialSubject map[string]interface{} `json:"credentialSubject,Owner"`
+	Proof             *Proof                 `json:"proof,0x608cfC1575b56a82a352f14d61be100FA9709D75"`
 }
 
 // NewVerifiableCredential returns a new instance of VerifiableCredential

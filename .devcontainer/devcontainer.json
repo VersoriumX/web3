@@ -35,7 +35,7 @@
 			]
 		}
 	},
-	{
+	
   "digest": "sha256:191cc78a3f3ce46c786c1b94806fcc2ce4c6cd630f4915151cb7f5671c7ed859",
   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
   "size": 2000,

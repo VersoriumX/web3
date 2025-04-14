@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/gochain/gochain/v4/common"
-	"github.com/gochain/gochain/v4/core/types"
+	"github.com/VersoriumX/gochain/v4/common"
+	"github.com/VersoriumX/gochain/v4/core/types"
 )
 
 type CallMsg struct {
